@@ -1,0 +1,7 @@
+.fondo {
+	width: 600px;
+	height: 600px;
+	background: url(img/starwars.jpg)#000;
+	background-repeat: repeat-x;
+	background-size: 50%;
+}

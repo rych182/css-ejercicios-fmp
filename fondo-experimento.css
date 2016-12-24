@@ -1,0 +1,11 @@
+.fondo {
+	background: url(img/starwars.jpg);
+	width: 600px;
+	height: 600px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+}
+
+/*El experimento consiste en crear una caja de  600x600
+y meter ahí una imagen y que abarque el ancho y alto de la caja
+y que se vea bien*/

@@ -1,0 +1,27 @@
+body {
+	background: url(img/starwars.jpg);
+	/*background-repeat: no-repeat; cuando nuestra imagen es pequeña y se reppite como si fuera mosaico
+	con esta hacemos que no se repita
+	background-repeat: repeat-x; se repito horizontalmente
+	background-repeat: repeat-y; se repite verticalmente
+	*/
+	/*background-size: 100%; Pone tu imagen del tamaño de tu página*/
+	/*background-size: cover; SIEMPRE SE USA Te adapta la image a tu página*/
+	/*background-size: contain; te abarca todo al ancho y alto*/
+	/*background-attachment: fixed; hace que la imagen se quede en el mismo sitio incluso si la persona hace scroll*/
+	
+	
+	background-size: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center; /*lo centra o tu pones las coordenadas con pixeles en X y Y*/
+
+} 
+
+
+/* Todo los de arriba se puede resumir así: 
+	background: url(img/starwars.jpg) no-repeat fixed center center;
+	ackground-size: 500px;
+
+*/
+
