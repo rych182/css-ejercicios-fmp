@@ -1,0 +1,19 @@
+body { /*Cuando la fuente lleva espacios debes de poner el nombre de la tipografía en comillas*/
+	font-family: "Times New Roman", Arial, Sans-serif, Helvetica;
+	text-transform: capitalize;
+	line-height: 30px; /*el espaciado entre cada renglon*/
+}
+
+h1 {
+	font-family: Helvetica, Arial; /*Muy utilizada*/
+	font-size: 20px; /*Muy utilizada*/
+	font-style: italic;/*Muy utilizada*/
+	font-weight: normal;/*Muy utilizada*/
+	color: #4281ed;
+	text-align: center;
+	text-decoration: line-through; /*underline y none, son las mas usadas*/
+	text-transform: uppercase; /*lowercase puras minusculas y capitalize es mayuscula la primer letra de cada palabra*/
+	
+
+}
+
