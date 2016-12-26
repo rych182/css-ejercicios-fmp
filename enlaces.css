@@ -1,0 +1,21 @@
+a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	background: orange;
+	color: white;
+}
+
+a:link { /*Los links que no han sido clickeados*/
+	text-decoration: none;
+}
+
+a:visited { /*Enlaces que ya han sido visitados*/
+	color: #ccc;
+}
+
+a:active { /*El efecto que hace cuando das un click*/
+	text-decoration: underline;
+}
