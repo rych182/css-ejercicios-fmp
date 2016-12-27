@@ -1,0 +1,34 @@
+/*En este ejercicio vamos a hacer que los enlaces
+se comporten como cajas*/
+
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+
+h1, p, div {
+	background: #ccc;
+	padding: 10px;
+	width: 500px;
+	display: inline;
+}
+
+a {
+	color: #fff;
+	background: #000;
+
+	display: inline-block;
+	padding: 10px;
+	width:;
+	height: 50px;
+}
+
+/*Display: Nos permite controlar como queremos que se muestre
+ nuestros bloques
+display: inline; Tipo linea
+display: inline-block; Tiene las propiedades del bloque que hace 
+que hace que nos permita modificar el padding, with y height
+pero siendo un elemento en linea(como los enlaces, br, strong, text area etc.) 
+display: block;
+
+ */
