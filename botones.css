@@ -1,0 +1,65 @@
+/*Un estili para lo general, un estilo para los tamaños y un estilo para los colores*/
+
+
+body {
+	background: #f2f2f2;
+	font-family: Arial, Sans-serif;
+}
+
+div {
+	margin: 20px 0;
+}
+
+.btn {
+	background: #32021f;
+	color:#fff;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.btn:hover {
+	opacity: .8;
+}
+
+.small {
+	font-size: 14px;
+	padding: 10px 15px;
+}
+
+.medium{
+	font-size: 16px;
+	padding: 15px 20px;
+}
+
+.big {
+	font-size: 18px;
+	padding: 20px 25px;
+}
+
+.extra-big {
+	font-size: 20px;
+	padding: 25px 30px;
+}
+
+.azul{
+	background: navy;
+}
+
+.verde{
+	background: green;
+}
+
+.naranja{
+	background: orange;
+}
+
+.radius {
+	border-radius: 100px;
+}
+
+/*NUNCA se te olvide agregar el "display: inline-block"}
+cuando quiera trabajar con el padding, por que si no
+no funcionara correctamente*/
