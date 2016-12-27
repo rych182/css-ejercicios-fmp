@@ -1,0 +1,23 @@
+.caja {
+	width: 200px;
+	height: 200px;
+	background: rgba(215, 38, 61, .21);
+}
+
+/*Hay 17 colores que podemos utilizar con palabras
+aqua- black - blue- gray, gree, lime , maroon , navy, 
+olive, orange, purple, red, silver, teal, white, yellow
+
+*/
+
+/*rgb();
+Es una combinacion de coloresm rojo, verde y azul
+Puedes poner numeros (213, 38, 61)
+o puedes poner porcentajes (84%, 15%, 24%)
+*/
+
+/*rgba (rojo, verde, azul y alpha que es para darle transparencia)
+el alpha se pone con punto decimal .8 o .2 pero siempre decimal
+
+
+*/

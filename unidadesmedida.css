@@ -1,0 +1,27 @@
+/*El navegador por defecto le da 16px de tamaño a la letra
+y ese tamaño es el que usa como referencia para la medida
+"em" , 2em equivaldria a 32px*/
+body {
+	font-size: 20px;
+}
+p {
+	font-size: 30px;
+}
+
+.contenedor_padre{
+	font-size: 30px;
+}
+
+.hijo{
+	width: 200px;
+	height: 200px;
+	background: #000;
+	color: #fff;
+}
+
+/*
+px- pixeles
+em - Relativa al tamaño de fuente que tenga su elemento padre o mas cercano
+rem - Relatica al tamaño de fuente especificado ene l body
+% - porcentaje
+*/
