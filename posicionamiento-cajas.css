@@ -1,0 +1,78 @@
+/*Cuando tienes una caja grande con position:relative y
+dentro de ella una caja pequeña con position:absolute
+(con un div obviamente)
+la caja mas chica tomara como 100% del archivo solo a la
+la caja grande por lo tanto solo se movera dentro de la
+caja grande*/
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f2f2f2;
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+	background: #0e6ba8;
+	margin: 20px;
+	float: right;
+}
+
+/*
+.cajapadre {
+	margin: 20px;
+	background: #2e294e;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+*/
+
+.posicionada {
+	background: red;
+
+/*	position: absolute; 
+	right:;
+	left: 220px;
+	bottom:;
+	top:;
+	*/
+}
+
+/*
+TIPOS DE POSICIONAMIENTO:
+
+- Normal (static): Por defecto como lo ponen los navegadores
+- Relativo (relative): Nos permite desplazar una caja desde su posicion
+hacia donde queremos y los demás elementos respetan su 
+posición anterior.
+- Absoluto (absolute): Con position absolute, los demás 
+elementos no respetan la posicion anterior a donde estaba
+nuestro elemento.
+- Fijo(Fixed): Nos permite posicionar una caja en donde su
+posicion respecto a la pantalla, siempre va a ser la misma,
+incluso si scrollea.
+Si pones 0% right
+- Flotante (float): Nos permite desplazar las cajas todo lo
+posible hacia la derecha o izquierda.
+
+*/
+
+/* Cuando queremos poner nuestras cajas a la derecha es
+con porcentajes.
+
+.posicionada {
+	background: red;
+	position: fixed; 
+	right: ;
+	left: ;
+	bottom: 0%;
+	top: 0%;
+}
+
+*/
