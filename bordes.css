@@ -1,0 +1,42 @@
+div {
+	background: #226fc1;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	display: inline-block;
+}
+
+.caja1 { /*una linea*/
+	border: 7px solid #000;
+	border-radius: 20px; /*Redondea los bordes*/
+}
+
+.caja2 { /*puntitos*/
+	border: 7px dotted #000; 
+	border-radius: 0px 10px 30px 50px;/*Valores por cada borde*/
+}
+
+.caja3 { /* lineas punteadas*/
+	border: 7px dashed #000;
+	border-radius: 100%;/*Solo cuando la caja sea cuadrada, te formara un cirulo*/
+}
+
+.caja4 { /*Borde doble que parece margen*/
+	border: 7px double #000;
+}
+
+.caja5 { /*Borde doble que parece margen*/
+	border: 7px ridge #000;
+}
+
+.caja6 { /*Borde doble que parece margen*/
+	border: 7px inset #000;
+}
+
+.caja7 { /*Borde doble que parece margen*/
+	border: 7px outset #000;
+}
+
+.caja8 { /*Borde doble que parece margen*/
+	border: 7px double #000;
+}
