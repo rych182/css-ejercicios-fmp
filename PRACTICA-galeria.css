@@ -23,7 +23,8 @@ body {
 	/*Le agregue background-size para que abarque el 100%
 	de la caja pero para que se adapte bien la imagen
 	le agregue altura, por que de no agregar la altura
-	utiliza la altura que quiera el navegador*/
+	utiliza la altura que quiera el navegador, aunque
+	por lo general solo se debe trabajar con el ancho*/
 }
 
 .galeria img:hover {

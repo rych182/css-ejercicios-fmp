@@ -1,0 +1,23 @@
+.texto {
+	/*text-shadow: 3px 3px 10px #000; */
+	/*
+	primer valor: posicion horizontal de la sombra
+	segundo valor: posicion de la sombra arriba hacia abajo 
+	tercer valor: el tamaño de la sombra
+	cuarto valor: el color de la sombra
+	*/
+	color: #fff;
+	text-shadow:2px 0px 10px blue;
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+	background: #f79256;
+	box-shadow:0 5px 3px rgba(0,0,0,.5); /*Esta sombra es para las cajas*/
+/*	Antes se usaba así para navegadores viejos
+	-webkit-box-shadow:;
+	-moz-box-shadow:;
+	box-shadow: 
+*/
+}
