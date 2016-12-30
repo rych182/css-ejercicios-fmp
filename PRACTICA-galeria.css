@@ -1,0 +1,32 @@
+* { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000500;
+}
+
+.galeria {
+	width: 100%;
+}
+
+.galeria img {
+	vertical-align: top;
+	width: 400px;
+	height: 200px;
+	margin: 20px;
+	padding: 5px;
+	opacity: 0.5;
+	border: 1px solid #484848;
+	background-size: 100%;
+	/*Le agregue background-size para que abarque el 100%
+	de la caja pero para que se adapte bien la imagen
+	le agregue altura, por que de no agregar la altura
+	utiliza la altura que quiera el navegador*/
+}
+
+.galeria img:hover {
+	border: 1px solid #fff;
+	opacity: 1;
+}
