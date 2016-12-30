@@ -1,0 +1,73 @@
+/*TERMINANDO ESTE EJERCICIO, TECNICAMENTE YA SABES CSS*/
+
+body {
+	font-family: Arial, Sans-serif;
+	background: #f2f2f2;
+}
+
+div, a {
+	background: #ccc;
+}
+
+a {
+	color: #fff;
+	background: blue;
+	font-size: 26px;
+	display: inline-block;
+	padding: 20px;
+
+	/*display: none;*/
+/*	visibility: hidden; */ /*Oculta las cosas guardandole su espacio en la página
+	se utiliza mucho cuando lo ocupas con js y jquery*/
+}
+
+/* Valores de "display"
+inline , block, none, inline-block , flex 
+*/
+.caja {
+	color: #fff;
+	background: green;
+	width: 200px;
+	margin: 20px 0;
+	height: 200px;
+	overflow: auto; /*El auto te permite poner un scroll para que
+	la gente pueda ver todo*/
+}
+
+.contenedor {
+	width: 600px;
+	background: #ccc;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.izquierda {
+	float: left;
+}
+
+.derecha {
+	float: right;
+}
+
+.contenedor2 .caja {
+	width: 150px;
+	height: 150px;
+	position: relative; /*Nos permite modificar las cajas*/
+}
+
+.azul {
+	background: #009ddc;
+	z-index: 10; /*Nos permite poner algo encima de otro*/
+}
+
+.gris {
+	background: #32021f;
+	left: 50px;
+	bottom: 80px;
+	z-index: 9;
+}
+/*Cuando algo parezca rarom intenta overflow:hidden;*/
+
+/*Cuando tu especificas un alto de la caja(height) y el texto
+es mas amplio que la altura, el texto se saldra, para 
+ocultar eso, utilizas "overflow:hidden;"*/
