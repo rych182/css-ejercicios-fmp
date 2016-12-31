@@ -1,0 +1,56 @@
+body {
+	font-family: Arial; 
+}
+/*
+ul, ol { Quita las viñetas de las listas
+	list-style: none; 
+	padding: 0;
+}
+*/
+
+ul {
+	list-style: square; /*circle*/
+	list-style-image: url('img/checked.png');
+}
+
+ol {
+	list-style: upper-roman;
+}
+/* link de la página para los íconos
+http://www.flaticon.com/search?word=check
+*/
+
+/*
+Valores gráficos:
+list-style: none | disc | circle | square
+
+Valores numéricos:
+list-style: decimal | decimal-leading-zep | lower-roman
+upper-roman | lower-latin | upper-latin
+*/
+
+/* Menú */
+
+.menu {
+	background: #4357ad;
+	width: 200px;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+
+}
+
+.menu li {
+	border-bottom: 1px solid rgba (255,255,255, .3);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none; /*Quita el subrayado*/
+}
+
+.menu li a:hover {
+	background: #4888d6;
+}
