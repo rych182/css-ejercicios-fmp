@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, Sans-serif, Helvetiva;
+	background: #e8e8e8;
+}
+
+.menu {
+	list-style: none;/*Quita los circulitos del menu*/
+	padding: 0;
+	background: black;
+	width: 90;
+	max-width: 600px;
+	margin: auto; /*Se centra automaticamente*/
+}
+
+.menu li {
+	display: inline-block; /*abarca solo el espacio que necesiten*/
+	text-align: center;
+
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;/*hace que cada etiqueta "a" sea un bloque*/
+	padding: 20px;/*dentro de la caja*/
+}
+
+.menu li a:hover {
+	background: orange;
+}
