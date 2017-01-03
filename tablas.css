@@ -1,0 +1,27 @@
+body {
+	font-family: Arial;
+}
+
+table, td, th {
+	border: 1px solid rgba(0,0,0,.4);
+}
+
+table {
+	border-collapse: collapse; 
+	/*Los bordes se unifican en uno solo*/
+	width: 500px;
+	text-align: center;
+}
+
+th, td {
+	padding: 10px 20px;
+}
+
+th{
+	background: #009ddc;
+	color: #fff;
+}
+
+tr:hover {
+	background: #e5e5e5;
+}
