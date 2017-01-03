@@ -1,0 +1,33 @@
+@keyframes colores { /*Los keyframes son un punto donde habrá unos cambios*/
+/*	from {background: #9eb3c2;}
+	to{background: #21295c;} */
+	0%{background: #9eb3c2;} /*Transicion del efecto desde 0-100%*/
+	25%{background: #1c7293; width: 300px;}
+	50%{background: #065a82; width: 400px;}
+	75%{background: #1b3b6f; width: 300px;}
+	100%{background: #9eb3c2; width: 200px;}
+}
+
+@keyframes movimiento {/*FORMA IDEAL DE TRABAJAR*/
+	0%{transform:translate(0px);}
+	50%{transform:translate(500px);}
+	100%{transform:translate(0px);}
+}
+
+@keyframes movimiento1 {
+	from {transform:translate(0px);}
+	to{transform:translate(500px);}
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+	background: #9eb3c2;
+	animation-name:movimiento1;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+}
+
+/* Se puede poner todo de "animation"en una sola linea 
+	animation:movimiento 10s ease infinite;
+*/
